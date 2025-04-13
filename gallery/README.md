@@ -8,9 +8,9 @@ Galleries on the website are made of three things:
 
 <details><summary><strong>Via the command line (for <code>git</code> users)</strong></summary>
 <ol>
-<li>Create a new subdirectory under `/gallery`.</li>
-<li>Create a new file `info.json` with the JSON shown above.</li>
-<li>Add your image files.</li>
+<li>Create a new subdirectory in this folder.</li>
+<li>Create a new file <code>info.json</code> in the folder with JSON shown below.</li>
+<li>Add your image files to the folder.</li>
 <li>Commit and push your change.</li>
 </ol>
 </details>
