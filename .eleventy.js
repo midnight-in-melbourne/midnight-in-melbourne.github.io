@@ -7,8 +7,8 @@ import postCss from "postcss";
 import autoprefixer from "autoprefixer";
 import cssnano from "cssnano";
 
-import path from "node:path"
-import { minify } from "html-minifier"
+import path from "node:path";
+import { minify } from "html-minifier";
 
 import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 
@@ -67,13 +67,23 @@ export default function (/** @type{EleventyConfig}  */ eleventyConfig) {
     });
 
     // Minify all output HTML
-    eleventyConfig.addTransform("htmlmin", (/** @type string */ content, /** @type string */ outputPath) => {
-        if (path.extname(outputPath) == ".html") {
-            return minify(content, {
-                collapseWhitespace: true,
-            })
-        } else {
+    eleventyConfig.addTransform(
+        "htmlmin",
+        (
+            /** @type string */ content,
+            /** @type string|boolean */ outputPath,
+        ) => {
+            if (typeof outputPath == "string") {
+                switch (path.extname(outputPath)) {
+                    case ".html":
+                    case ".xml":
+                        return minify(content, {
+                            collapseWhitespace: true,
+                        });
+                    default:
+                }
+            }
             return content;
-        }
-    });
+        },
+    );
 }

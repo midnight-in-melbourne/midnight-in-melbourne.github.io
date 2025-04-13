@@ -4,5 +4,10 @@
         "facebook": "https://facebook.com",
         "discord": "https://discord.com",
         "instagram": "https://instagram.com"
+    },
+    "name": "Midnight in Melbourne",
+    "base": "https://midnightinmelbourne.com",
+    "metadata": {
+        "description": "Midnight in Melbourne is ..."
     }
 }
