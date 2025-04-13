@@ -3,14 +3,16 @@
 Galleries on the website are made of three things:
 
 - The gallery's name, which is shown to the visitor. For example, `Chapter 2`.
-- The collection of image files.
+- The collection of image files. These can be in PNG or JPEG format, and you can have as many as you like.
 - The gallery's "slug", which the site uses to identify the gallery and isn't shown to the visitor.  For example, `event-2`.
 
-<details><summary>**Via the command line (for `git` users)**</summary>
-1. Create a new subdirectory under `/gallery`.
-2. Create a new file `info.json` with the JSON shown above.
-3. Add your image files.
-4. Commit and push your change.
+<details><summary><strong>Via the command line (for <code>git</code> users)</strong></summary>
+<ol>
+<li>Create a new subdirectory under `/gallery`.</li>
+<li>Create a new file `info.json` with the JSON shown above.</li>
+<li>Add your image files.</li>
+<li>Commit and push your change.</li>
+</ol>
 </details>
 
 ## Via the website
@@ -20,7 +22,7 @@ To create a new Gallery, follow these steps. First, we need to create the galler
 
 1. At the top-right corner of the GitHub page, click "Add File".
 2. Click "Create New File".
-3. Type the event's slug, and press the slash `/` key.
+3. Type the event's slug, and press the slash <kbd>/</kbd> key.
 4. Type `info.json`.
 5. In the main text box, paste the following contents:
 
