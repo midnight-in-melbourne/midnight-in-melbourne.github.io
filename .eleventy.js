@@ -50,6 +50,8 @@ export default function (/** @type{EleventyConfig}  */ eleventyConfig) {
         "./node_modules/flowbite/dist/flowbite.min.js": "js/flowbite.min.js",
     });
 
+    eleventyConfig.ignores.add("**/README.md");
+
     // Create a unique string that changes every build
     eleventyConfig.addShortcode("version", function () {
         return now;
