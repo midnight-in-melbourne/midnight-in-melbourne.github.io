@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+  <head>
+    <title>{% block title %}Midnight in Melbourne{% endblock %}</title>
+    <meta charset="UTF-8" />
+    {% if description %}
+    <meta name="description" content="{{ description }}" />
+    {% endif %}
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="theme-color" content="#000000"/>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover"
+    />
+    <link rel="stylesheet" href="/style.css?v={% version %}" />
+    {% block head %}{% endblock %}
+  </head>
+  <body class="bg-black text-gray leading-8 h-full scheme-dark">
+    
+  {# Top bar #}
+  <div class="fixed top-0 bg-black flex justify-between gap-2 p-2 w-full shadow-lg shadow-black">
+    <a href="{{ "index.njk" | inputPathToUrl}}"
+      ><img src="/img/MiM-Logo-50h.png"
+    /></a>
+
+    <nav class="flex justify-end gap-4 items-end grow">
+      <a class="hover:text-white p-2 py-1" href="/galleries/" class="cursor-pointer">Gallery</a>
+      <a class="hover:text-white p-2 py-1" href="/lore/" class="cursor-pointer">History and Lore</a>
+      <a class="hover:text-white p-2 py-1" href="/resources/" class="cursor-pointer">Resources</a>
+      <a class="hover:text-white hover:bg-red-700 cursor-pointer text-white bg-red-900 p-2 py-1 rounded" href="{{event.currentTicketsURL}}" >Tickets</a>
+    </nav>
+  </div>
+
+  <div class="flex flex-col h-full mt-20">
+    {# Body content #}
+    <div class="grow flex flex-col gap-5 md:max-w-5xl mx-auto items-center">
+      {% block content %}
+      {{ content | safe }}
+      {% endblock %}
+    </div>
+
+    {# Footer #}
+    <div class="shrink flex grow flex-col items-center justify-end mx-5 md:mx-20 text-center text-gray-800 mb-5">
+        <div class="md:max-w-lg">
+        Statement about proprietary information, etc.
+        Midnight in Melbourne is made up of a collection of individuals opening in Naarm, Melbourne, on Wurundjeri Woi Wurrung country. 
+        We pay respect to the Elders of this land, past and present.
+        Sovereignty was never ceded.
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="/js/flowbite.min.js"></script>
+</html>

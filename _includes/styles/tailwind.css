@@ -1,0 +1,92 @@
+@import "tailwindcss";
+
+@import "flowbite/src/themes/default";
+
+@plugin "flowbite/plugin";
+
+@source "../node_modules/flowbite";
+
+@font-face {
+    font-family: "Bebas-Neue";
+    src: url("/fonts/BebasNeue-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("/fonts/Roboto-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Roboto";
+    src: url("/fonts/Roboto-Bold.ttf");
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Roboto";
+    src: url("/fonts/Roboto-Italic.ttf");
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: "Roboto";
+    src: url("/fonts/Roboto-BoldItalic.ttf");
+    font-weight: bold;
+    font-style: italic;
+}
+
+@theme {
+    --color-*: initial;
+    --color-black: #000;
+    --color-white: #fff;
+
+    --color-red: #8e0c09;
+    --color-red-50: #fff0f0;
+    --color-red-100: #ffdddc;
+    --color-red-200: #ffc1c0;
+    --color-red-300: #ff9694;
+    --color-red-400: #ff5a56;
+    --color-red-500: #ff2722;
+    --color-red-600: #ff0701;
+    --color-red-700: #d90500;
+    --color-red-800: #b20602;
+    --color-red-900: #8e0c09;
+    --color-red-950: #510200;
+
+    --color-gray: #adadad;
+    --color-gray-50: #f7f7f7;
+    --color-gray-100: #ededed;
+    --color-gray-200: #dfdfdf;
+    --color-gray-300: #c8c8c8;
+    --color-gray-400: #adadad;
+    --color-gray-500: #999999;
+    --color-gray-600: #888888;
+    --color-gray-700: #7b7b7b;
+    --color-gray-800: #676767;
+    --color-gray-900: #545454;
+    --color-gray-950: #363636;
+
+    --font-sans:
+        "Roboto", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
+        "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-serif: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+    --font-mono:
+        ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+        "Liberation Mono", "Courier New", monospace;
+
+    --font-heading:
+        "Bebas-Neue", "Impact", ui-sans-serif, system-ui, sans-serif,
+        "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+        "Noto Color Emoji";
+}
+
+html {
+    font-size: 18px;
+}
+
+p {
+    margin-bottom: calc(var(--spacing) * 4);
+}

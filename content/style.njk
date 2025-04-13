@@ -1,0 +1,7 @@
+---
+permalink: style.css
+layout: 
+---
+
+{% set css %} {% include "styles/tailwind.css" %} {% endset %} {{css | postcss |
+safe}}

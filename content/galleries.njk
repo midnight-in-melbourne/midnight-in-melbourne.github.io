@@ -1,0 +1,14 @@
+---
+title: Galleries
+layout: page
+hideDate: true
+---
+{% for gallery in galleries %}
+    
+<h1 class="text-red font-heading text-3xl text-center" >{{gallery.title | default("Gallery")}}</h1>
+<div class="grid gap-2 grid-cols-2 md:grid-cols-3">
+    {% for item in gallery.images %}
+        <img width="800" src="{{item}}"/>
+    {% endfor %}
+</div>
+{% endfor %}

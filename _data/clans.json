@@ -1,0 +1,37 @@
+[
+    {
+        "id": "ministry",
+        "name": "The Ministry",
+        "thumbnailImg": "https://placehold.co/120x140",
+        "heroImg": "https://placehold.co/600x400",
+        "description": "lorem ipsum dolor sit amet"
+    },
+    {
+        "id": "banu-hakim",
+        "name": "Banu Hakim",
+        "thumbnailImg": "https://placehold.co/120x140",
+        "heroImg": "https://placehold.co/600x400",
+        "description": "lorem ipsum dolor sit amet"
+    },
+    {
+        "id": "malkavian",
+        "name": "Malkavian",
+        "thumbnailImg": "https://placehold.co/120x140",
+        "heroImg": "https://placehold.co/600x400",
+        "description": "lorem ipsum dolor sit amet"
+    },
+    {
+        "id": "toreador",
+        "name": "Toreador",
+        "thumbnailImg": "https://placehold.co/120x140",
+        "heroImg": "https://placehold.co/600x400",
+        "description": "The Toreador are ...... They're not currently in Melbourne."
+    },
+    {
+        "id": "nosferatu",
+        "name": "Nosferatu",
+        "thumbnailImg": "https://placehold.co/120x140",
+        "heroImg": "https://placehold.co/600x400",
+        "description": "lorem ipsum dolor sit amet"
+    }
+]

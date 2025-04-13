@@ -1,0 +1,17 @@
+{% extends "_includes/default.njk" %} {% block title %} {{ title }} -
+{{super()}} {% endblock %} {% block content %}
+<div class="mx-10 md:mx-40">
+    {# Show the page's title #}
+  <h1 class="font-heading text-red text-center text-4xl uppercase mb-2">
+    {{ title }}
+  </h1>
+  {# If the page hasn't requested to hide its date, show it under the title #}
+  {% if not hideDate  %}
+  <p class="text-center text-gray-800">
+    {{page.date.toLocaleDateString("en-AU", {year: "numeric", month: "long",
+    day: "numeric"})}}
+  </p>
+  {% endif %}
+  {{ super() }}
+</div>
+{% endblock %}
