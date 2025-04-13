@@ -7,6 +7,9 @@ import postCss from "postcss";
 import autoprefixer from "autoprefixer";
 import cssnano from "cssnano";
 
+import path from "node:path"
+import { minify } from "html-minifier"
+
 import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 
 const postcssFilter = (cssCode, done) => {
@@ -61,5 +64,16 @@ export default function (/** @type{EleventyConfig}  */ eleventyConfig) {
                 decoding: "async",
             },
         },
+    });
+
+    // Minify all output HTML
+    eleventyConfig.addTransform("htmlmin", (/** @type string */ content, /** @type string */ outputPath) => {
+        if (path.extname(outputPath) == ".html") {
+            return minify(content, {
+                collapseWhitespace: true,
+            })
+        } else {
+            return content;
+        }
     });
 }
