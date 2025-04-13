@@ -16,7 +16,7 @@ eleventyExcludeFromCollections: true
     {% for item in resources %}
     <a href="/downloads/{{ item.data.file }}">
       <div class="flex gap-2">
-        <img src="{{item.data.image}}" width="200" class="max-h-[100px] object-cover" />
+        <img src="{{item.data.image}}" width="200" class="max-h-[100px] object-cover rounded" />
         <div class="flex flex-col">
           <div class="font-heading uppercase text-3xl">
             {{ item.data.title }}

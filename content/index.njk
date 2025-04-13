@@ -90,14 +90,14 @@ title: Midnight in Melbourne
   <h1 class="font-heading text-red text-4xl uppercase mb-5">The Clans</h1>
 
   <div class="flex flex-wrap gap-10 justify-center">
-    {% for item in clans %}
+    {% for item in collections.clans %}
     <div
       class="flex flex-col gap-1 items-center cursor-pointer"
-      data-modal-target="modal-clan-{{item.id}}"
-      data-modal-toggle="modal-clan-{{item.id}}"
+      data-modal-target="modal-clan-{{item.page.fileSlug}}"
+      data-modal-toggle="modal-clan-{{item.page.fileSlug}}"
     >
-      <img src="{{item.thumbnailImg}}" class="rounded" />
-      {{item.name}}
+      <img src="{{item.data.thumbnailImg}}" class="rounded" />
+      {{item.data.title}}
     </div>
     {% else %} Error: No clans! {% endfor %}
   </div>
@@ -113,9 +113,9 @@ title: Midnight in Melbourne
 </div>
 
 
-{% for item in clans %}
+{% for item in collections.clans %}
 <div
-  id="modal-clan-{{item.id}}"
+  id="modal-clan-{{item.page.fileSlug}}"
   tabindex="-1"
   aria-hidden="true"
   class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full"
@@ -149,8 +149,8 @@ title: Midnight in Melbourne
     <div
       class="relative bg-gray-900 text-gray p-4 rounded-lg shadow-sm flex flex-col justify-center items-center"
     >
-      <img src="{{item.heroImg}}" class="rounded-xl" />
-      {{item.description}}
+      <img src="{{item.data.heroImg}}" class="rounded-xl" />
+      {{item.content | safe}}
     </div>
   </div>
 </div>
