@@ -1,3 +1,8 @@
 {
-    "currentTicketsURL": "https://www.eventbrite.com.au/e/midnight-in-melbourne-uneasy-lies-tickets-1311610194399"
+    "currentTicketsURL": "https://www.eventbrite.com.au/e/midnight-in-melbourne-uneasy-lies-tickets-1311610194399",
+    "socials": {
+        "facebook": "https://facebook.com",
+        "discord": "https://discord.com",
+        "instagram": "https://instagram.com"
+    }
 }

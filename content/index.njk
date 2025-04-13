@@ -106,9 +106,21 @@ title: Midnight in Melbourne
 <div class="flex flex-col items-center mx-20">
   <h1 class="font-heading text-red text-4xl uppercase mb-5">Follow Us</h1>
   <div class="flex flex-wrap justify-center gap-y-4">
-    <div class="w-[100px] flex flex-col items-center"><img eleventy:formats="svg" class="h-[50px]" src="./img/facebook.svg" />Facebook</div>
-    <div class="w-[100px] flex flex-col items-center"><img eleventy:formats="svg" class="h-[50px]" src="./img/instagram.svg" />Instagram</div>
-    <div class="w-[100px] flex flex-col items-center"><img eleventy:formats="svg" class="h-[50px]" src="./img/discord.svg" />Discord</div>
+    <a href="{{ event.socials.facebook }}">
+      <div class="w-[100px] flex flex-col items-center"><img eleventy:formats="svg" class="h-[50px]" src="./img/facebook.svg" />
+        Facebook
+      </div>
+    </a>
+    <a href="{{ event.socials.instagram }}">
+      <div class="w-[100px] flex flex-col items-center"><img eleventy:formats="svg" class="h-[50px]" src="./img/instagram.svg" />
+        Instagram
+      </div>
+    </a>
+    <a href="{{ event.socials.discord }}">
+      <div class="w-[100px] flex flex-col items-center"><img eleventy:formats="svg" class="h-[50px]" src="./img/discord.svg" />
+        Discord
+      </div>
+    </a>
     </div>
 </div>
 
