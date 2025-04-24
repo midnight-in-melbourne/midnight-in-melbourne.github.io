@@ -4,3 +4,5 @@ node_modules/
 
 *do-not-commit*
 reference/
+
+.DS_Store
