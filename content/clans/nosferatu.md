@@ -5,4 +5,4 @@ heroImg: https://placehold.co/600x400
 order: 4
 ---
 
-lorem ipsum dolor sit amet
+The secretive Clan Nosferatu are monstrous of appearance, but respected for their knowledge and insight. Costumes that are scary, creepy, dirty, or disgusting will be cast here.
