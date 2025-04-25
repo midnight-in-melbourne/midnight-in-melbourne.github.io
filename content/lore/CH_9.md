@@ -1,7 +1,7 @@
 ---
-title: "Chapter 9: Better Angels
+title: "Chapter 9: Better Angels"
 image: ./img/photo-22.jpg
-summary: Summary information for Lore 2.
+summary: Prince Eclipse is executed, the Toreador fall.
 date: 16-02-2025
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Chapter 7: Infinite Jest"
 image: ./img/photo-22.jpg
-summary: Summary information for Lore 2.
+summary: The city grows more chaotic
 date: 11-08-2024
 ---
 

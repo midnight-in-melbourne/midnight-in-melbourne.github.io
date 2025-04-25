@@ -1,7 +1,7 @@
 ---
 title: "Chapter 8: Feaful Symmetry
 image: ./img/photo-22.jpg
-summary: Summary information for Lore 2.
+summary: The rise and fall of the Prince
 date: 10-11-2024
 ---
 

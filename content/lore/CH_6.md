@@ -1,7 +1,7 @@
 ---
 title: "Chapter 6: Cradle of Ashes"
 image: ./img/photo-22.jpg
-summary: Summary information for Lore 2.
+summary: An emissery from the Camarilla, and the beginnings of chaos.
 date: 13-05-2024
 ---
 
