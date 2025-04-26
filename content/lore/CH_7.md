@@ -2,7 +2,7 @@
 title: "Chapter 7: Infinite Jest"
 image: ./img/photo-22.jpg
 summary: The city grows more chaotic
-date: 11-08-2024
+date: 2024-08-11
 ---
 
 Without leadership or laws, diablerie began to run rampant through the

@@ -2,7 +2,7 @@
 title: "Chapter 5: Wages of Sin"
 image: ./img/photo-22.jpg
 summary: Summary information for Lore 2.
-date: 12-02-2024
+date: 2024-02-12
 ---
 
 Adelaide had fallen to the Camarilla. Though some (particularly the Gangrel and a prominent Toreador named Phoenix) had contributed much to the war effort, it was not enough to resist the Ivory Tower and the survivors fled to Melbourne. It was not lost on any that even a token effort by the Brujah to assist would have seen them victorious instead, yet the Brujah sent nobody.

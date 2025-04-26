@@ -2,7 +2,7 @@
 title: "Chapter 1: Midnight Begins"
 image: ./img/photo-20.jpg
 summary: A summary of events of the first session of Midnight in Melbourne.
-date: 13-02-2023
+date: 2023-02-13
 ---
 
 Our story begins with the vampires of Melbourne crawling out of a power vacuum, and seeking to establish a new pecking order. The Toreadors, reclaiming their traditional hold as arbiters of "Elysium", arranged for a meeting of the surviving clans to decide who would be the inheritor of the Mad King's fallen city. 

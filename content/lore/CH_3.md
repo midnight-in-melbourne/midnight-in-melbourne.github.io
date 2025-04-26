@@ -2,7 +2,7 @@
 title: "Chapter 3: Ambitions’ Debt"
 image: ./img/photo-22.jpg
 summary: Summary information for Lore 2.
-date: 14-08-2023
+date: 2023-08-14
 ---
 
 Melbourne remained without leadership nor laws, but it did at least have an Elysium where the Kindred could meet, socialize, and plot. The Toreador, social creatures in the extreme, called for a gathering ostensibly to welcome the Gangrel and Nosferatu clans who were establishing themselves properly in the domain, but rumours abounded that an emissary of the Camarilla would be in attendance as well.

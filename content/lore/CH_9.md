@@ -2,7 +2,7 @@
 title: "Chapter 9: Better Angels"
 image: ./img/photo-22.jpg
 summary: Prince Eclipse is executed, the Toreador fall.
-date: 16-02-2025
+date: 2025-02-16
 ---
 
 The first gathering under Prince Eclipse occurred at a difficult time. Half the city were too

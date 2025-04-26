@@ -1,8 +1,8 @@
 ---
-title: "Chapter 8: Feaful Symmetry
+title: "Chapter 8: Feaful Symmetry"
 image: ./img/photo-22.jpg
 summary: The rise and fall of the Prince
-date: 10-11-2024
+date: 2024-11-10
 ---
 
 The first official court gathering of the Widowed Prince saw a delegation of Banu Haqim from

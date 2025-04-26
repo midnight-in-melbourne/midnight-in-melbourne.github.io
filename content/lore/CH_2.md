@@ -2,7 +2,7 @@
 title: "Chapter 2: Spoils of War"
 image: ./img/photo-22.jpg
 summary: Summary information for Lore 2.
-date: 05-06-2023
+date: 2023-06-05
 ---
 
 The remaining vampires began claiming the hunting grounds abandoned by the Camarilla, resulting in territorial disputes and clan tension. This was only exacerbated by the Ministry entering the city, who were technically welcome now that it was an Anarch Free State. However, no authority existed to resolve any issues or disputes so a meeting was called to attempt to resolve these matters.
