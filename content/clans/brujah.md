@@ -1,4 +1,5 @@
 ---
+permalink: false
 title: Brujah
 thumbnailImg: https://placehold.co/120x140
 heroImg: https://placehold.co/600x400

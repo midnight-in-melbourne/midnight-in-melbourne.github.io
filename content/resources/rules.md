@@ -1,6 +1,6 @@
 ---
 title: Rules
-summary: the rules
+summary: Outlines of the rules for participants (396 KB PDF)
 image: ./img/photo-18.jpg
-file: rules.txt
+file: Performer-Rules-type-setting-Ep10.pdf
 ---
