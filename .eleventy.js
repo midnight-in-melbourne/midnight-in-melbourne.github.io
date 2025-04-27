@@ -12,6 +12,8 @@ import { minify } from "html-minifier";
 
 import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 
+import dateFilter from 'nunjucks-date-filter';
+
 const postcssFilter = (cssCode, done) => {
     // we call PostCSS here.
     postCss([tailwind(), autoprefixer(), cssnano({ preset: "default" })])
@@ -56,6 +58,8 @@ export default function (/** @type{EleventyConfig}  */ eleventyConfig) {
     eleventyConfig.addShortcode("version", function () {
         return now;
     });
+
+    eleventyConfig.addNunjucksFilter("date", dateFilter);
 
     // Run 11ty Image to process images
     eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
