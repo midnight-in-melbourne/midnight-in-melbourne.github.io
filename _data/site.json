@@ -2,12 +2,12 @@
     "currentTicketsURL": "https://www.eventbrite.com.au/e/midnight-in-melbourne-uneasy-lies-tickets-1311610194399",
     "socials": {
         "facebook": "https://www.facebook.com/profile.php?id=100093115014967",
-        "discord": "https://discord.com",
-        "instagram": "https://instagram.com"
+        "discord": "https://discord.gg/NYGuZYGKDz",
+        "instagram": "https://www.instagram.com/midnight_in_melbourne/"
     },
     "name": "Midnight in Melbourne",
     "base": "https://midnightinmelbourne.com",
     "metadata": {
-        "description": "Midnight in Melbourne is ..."
+        "description": "Midnight in Melbourne is an ongoing interactive story set in the vampiric underworld of Melbourne. Based on the Vampire: the Masquerade roleplaying setting."
     }
 }
