@@ -40,9 +40,7 @@ title: Midnight in Melbourne
         <p>
           We aim to be a beginner-friendly event, with an ongoing interactive
           story. Each of our events is a sequel to the preceding one, but you
-          can come without knowing what's happened in previous sessions. If
-          you're curious, you can find a summary of previous the story so far in
-          the link below.
+          can come without knowing what's happened in previous sessions (but if you're curious, you can read summaries in the "History and Lore" page). 
         </p>
         <p>
           The experience is similar to playing a round of Dungeons & Dragons,
@@ -56,6 +54,24 @@ title: Midnight in Melbourne
 </div>
 </div>
 
+
+
+<div class="flex flex-col items-center mx-20">
+  <h1 class="font-heading text-red text-4xl uppercase mb-5">The Clans of Melbourne</h1>
+
+  <div class="flex flex-wrap gap-10 justify-center">
+    {% for item in collections.clans %}
+    <div
+      class="flex flex-col gap-1 items-center cursor-pointer"
+      data-modal-target="modal-clan-{{item.page.fileSlug}}"
+      data-modal-toggle="modal-clan-{{item.page.fileSlug}}"
+    >
+      <img src="{{item.data.thumbnailImg}}" class="rounded" />
+      {{item.data.title}}
+    </div>
+    {% else %} Error: No clans! {% endfor %}
+  </div>
+</div>
 <div class="mx-5 md:mx-20">
   <h1 class="font-heading text-red text-4xl uppercase mb-5">The Setting</h1>
   <p>
@@ -85,24 +101,6 @@ title: Midnight in Melbourne
     ideal conditions for the rise of the Malkavian known as the Mad Prince Moon.
   </p>
 </div>
-
-<div class="flex flex-col items-center mx-20">
-  <h1 class="font-heading text-red text-4xl uppercase mb-5">The Clans of Melbourne</h1>
-
-  <div class="flex flex-wrap gap-10 justify-center">
-    {% for item in collections.clans %}
-    <div
-      class="flex flex-col gap-1 items-center cursor-pointer"
-      data-modal-target="modal-clan-{{item.page.fileSlug}}"
-      data-modal-toggle="modal-clan-{{item.page.fileSlug}}"
-    >
-      <img src="{{item.data.thumbnailImg}}" class="rounded" />
-      {{item.data.title}}
-    </div>
-    {% else %} Error: No clans! {% endfor %}
-  </div>
-</div>
-
 <div class="flex flex-col items-center mx-20">
   <h1 class="font-heading text-red text-4xl uppercase mb-5">Follow Us</h1>
   <div class="flex flex-wrap justify-center gap-y-4">
