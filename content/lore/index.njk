@@ -21,7 +21,7 @@ eleventyExcludeFromCollections: true
           <div class="font-heading uppercase text-3xl">
             {{ item.data.title }}
           </div>
-          <div class="text-gray-800">{{ item.data.date }}</div>
+          <div class="text-gray-800">{{ item.data.date | date("DD-MM-YYYY") }}</div>
         </div>
       </div>
     </a>
