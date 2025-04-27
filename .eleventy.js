@@ -8,7 +8,7 @@ import autoprefixer from "autoprefixer";
 import cssnano from "cssnano";
 
 import path from "node:path";
-import { minify } from "html-minifier";
+import { minify } from "html-minifier-terser";
 
 import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 
