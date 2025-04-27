@@ -1,7 +1,6 @@
 ---
 title: "Chapter 1: Midnight Begins"
-image: ./img/photo-20.jpg
-summary: A summary of events of the first session of Midnight in Melbourne.
+image: ./img/Chapter_1.jpg
 date: 2023-02-13
 ---
 

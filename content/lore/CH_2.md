@@ -1,6 +1,6 @@
 ---
 title: "Chapter 2: Spoils of War"
-image: ./img/photo-22.jpg
+image: ./img/Chapter_2.jpg
 summary: Summary information for Lore 2.
 date: 2023-06-05
 ---

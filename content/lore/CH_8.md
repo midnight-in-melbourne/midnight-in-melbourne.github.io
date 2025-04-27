@@ -1,6 +1,6 @@
 ---
 title: "Chapter 8: Feaful Symmetry"
-image: ./img/photo-22.jpg
+image: ./img/Chapter_8.jpg
 summary: The rise and fall of the Prince
 date: 2024-11-10
 ---

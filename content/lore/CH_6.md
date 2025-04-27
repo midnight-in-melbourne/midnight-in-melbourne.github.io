@@ -1,6 +1,6 @@
 ---
 title: "Chapter 6: Cradle of Ashes"
-image: ./img/photo-22.jpg
+image: ./img/Chapter_6.jpg
 summary: An emissery from the Camarilla, and the beginnings of chaos.
 date: 2024-05-13
 ---

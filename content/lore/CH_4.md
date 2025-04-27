@@ -1,6 +1,6 @@
 ---
 title: "Chapter 4: Dead Man's Hand"
-image: ./img/photo-22.jpg
+image: ./img/Chapter_4.jpg
 summary: Summary information for Lore 2.
 date: 2023-11-13
 ---

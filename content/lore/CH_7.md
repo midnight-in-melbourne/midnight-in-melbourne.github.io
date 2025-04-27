@@ -1,6 +1,6 @@
 ---
 title: "Chapter 7: Infinite Jest"
-image: ./img/photo-22.jpg
+image: ./img/Chapter_7.jpg
 summary: The city grows more chaotic
 date: 2024-08-11
 ---

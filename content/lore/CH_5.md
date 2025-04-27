@@ -1,6 +1,6 @@
 ---
 title: "Chapter 5: Wages of Sin"
-image: ./img/photo-22.jpg
+image: ./img/Chapter_5.jpg
 summary: Summary information for Lore 2.
 date: 2024-02-12
 ---

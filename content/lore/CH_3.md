@@ -1,6 +1,6 @@
 ---
 title: "Chapter 3: Ambitions’ Debt"
-image: ./img/photo-22.jpg
+image: ./img/Chapter_3.jpg
 summary: Summary information for Lore 2.
 date: 2023-08-14
 ---
