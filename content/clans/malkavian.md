@@ -1,6 +1,6 @@
 ---
 title: Malkavian
-thumbnailImg: https://placehold.co/120x140
+thumbnailImg: ./clans/img/Malkavian_Symbol.jpg
 heroImg: https://placehold.co/600x400
 order: 2
 ---

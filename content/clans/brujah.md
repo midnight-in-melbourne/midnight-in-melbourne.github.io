@@ -1,7 +1,7 @@
 ---
 permalink: false
 title: Brujah
-thumbnailImg: https://placehold.co/120x140
+thumbnailImg: ./clans/img/Brujah_Symbol.jpg
 heroImg: https://placehold.co/600x400
 order: 7
 ---

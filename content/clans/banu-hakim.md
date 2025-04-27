@@ -1,6 +1,6 @@
 ---
 title: Banu Hakim
-thumbnailImg: https://placehold.co/120x140
+thumbnailImg: ./clans/img/Banu_Haqim_Symbol.jpg
 heroImg: ./clans/img/banu_hakim.webp
 order: 1
 ---

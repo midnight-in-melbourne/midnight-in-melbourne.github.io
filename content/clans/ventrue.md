@@ -1,6 +1,6 @@
 ---
 title: Ventrue
-thumbnailImg: https://placehold.co/120x140
+thumbnailImg: ./clans/img/Ventrue_Symbol.jpg
 heroImg: ./clans/img/banu_hakim.webp
 order: 6
 ---
