@@ -4,6 +4,14 @@ image: ./img/Chapter_8.jpg
 summary: The rise and fall of the Prince
 date: 2024-11-10
 ---
+    <div class="flex flex-col justify-center items-center text-lg md:text-2xl gap-2 mb-10 mx-5">
+    <img
+      src="./img/Chapter_8.jpg"
+      width="600"
+      height="400"
+      class="rounded-2xl"
+    />
+    </div>
 
 The first official court gathering of the Widowed Prince saw a delegation of Banu Haqim from
 the Camarilla attend with an invitation from the Governor for the city to join the sect. This would

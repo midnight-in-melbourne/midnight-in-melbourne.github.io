@@ -3,6 +3,14 @@ title: "Chapter 1: Midnight Begins"
 image: ./img/Chapter_1.jpg
 date: 2023-02-13
 ---
+    <div class="flex flex-col justify-center items-center text-lg md:text-2xl gap-2 mb-10 mx-5">
+    <img
+      src="./img/Chapter_1.jpg"
+      width="600"
+      height="400"
+      class="rounded-2xl"
+    />
+    </div>
 
 Our story begins with the vampires of Melbourne crawling out of a power vacuum, and seeking to establish a new pecking order. The Toreadors, reclaiming their traditional hold as arbiters of "Elysium", arranged for a meeting of the surviving clans to decide who would be the inheritor of the Mad King's fallen city. 
 

@@ -4,6 +4,14 @@ image: ./img/Chapter_4.jpg
 summary: Summary information for Lore 2.
 date: 2023-11-13
 ---
+    <div class="flex flex-col justify-center items-center text-lg md:text-2xl gap-2 mb-10 mx-5">
+    <img
+      src="./img/Chapter_4.jpg"
+      width="600"
+      height="400"
+      class="rounded-2xl"
+    />
+    </div>
 
 The Ministry, offended by the Toreador’s inability to conduct a meeting without violence (at a supposed Elysium, no less), invited the Kindred to a meeting at their hunting grounds in Crown casino to attend the inaugural pronouncement of Baron Leo and hear his laws and edicts. Though the Baron’s ascendance was of central import, two other vital matters concerned the assembly.
 

@@ -4,6 +4,14 @@ image: ./img/Chapter_9.jpg
 summary: Prince Eclipse is executed, the Toreador fall.
 date: 2025-02-16
 ---
+    <div class="flex flex-col justify-center items-center text-lg md:text-2xl gap-2 mb-10 mx-5">
+    <img
+      src="./img/Chapter_9.jpg"
+      width="600"
+      height="400"
+      class="rounded-2xl"
+    />
+    </div>
 
 The first gathering under Prince Eclipse occurred at a difficult time. Half the city were too
 compromised or threatened by mortal attention to be safe for hunting, and yet another would

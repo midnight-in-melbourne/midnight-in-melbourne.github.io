@@ -4,6 +4,14 @@ image: ./img/Chapter_7.jpg
 summary: The city grows more chaotic
 date: 2024-08-11
 ---
+    <div class="flex flex-col justify-center items-center text-lg md:text-2xl gap-2 mb-10 mx-5">
+    <img
+      src="./img/Chapter_7.jpg"
+      width="600"
+      height="400"
+      class="rounded-2xl"
+    />
+    </div>
 
 Without leadership or laws, diablerie began to run rampant through the
 ranks of the Kindred of Melbourne. In the midst of this chaos, the Mad Prince
