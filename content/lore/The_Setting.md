@@ -1,6 +1,8 @@
 ---
 title: "The Setting"
-image: ./img/Chapter_8.jpg
+image: ./img/MiM-Logo.png
+date: 2022-02-13
+
 ---
 <p>
     Kindred society in Melbourne truly began shortly after the Victorian gold
