@@ -13,12 +13,12 @@ permalink: /resources/
   <h1 class="font-heading text-red text-4xl uppercase mb-5 text-center">
     {{ title }}
   </h1>
-    <div class="flex flex-col gap-2">
+    <div class="flex flex-col gap-4">
     {% for item in resources %}
     <a href="/downloads/{{ item.data.file }}">
-      <div class="flex gap-2">
-        <img src="{{item.data.image}}" width="200" class="max-h-[100px] object-cover rounded" />
-        <div class="flex flex-col">
+      <div class="flex gap-4">
+        <img src="./img/file-arrow-down-solid.svg" width="80" class="object-contain rounded " />
+        <div class="flex flex-col w-[80%]">
           <div class="font-heading uppercase text-3xl">
             {{ item.data.title }}
           </div>
