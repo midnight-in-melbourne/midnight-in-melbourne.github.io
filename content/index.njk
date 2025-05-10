@@ -53,25 +53,14 @@ title: Midnight in Melbourne
   
 </div>
 </div>
-
-
-
-<div class="flex flex-col items-center mx-20">
-  <h1 class="font-heading text-red text-4xl uppercase mb-5">The current Clans of Melbourne</h1>
-
-  <div class="flex flex-wrap gap-10 justify-center">
-    {% for item in collections.clans %}
-    <div
-      class="flex flex-col gap-1 items-center cursor-pointer"
-      data-modal-target="modal-clan-{{item.page.fileSlug}}"
-      data-modal-toggle="modal-clan-{{item.page.fileSlug}}"
-    >
-      <img src="{{item.data.thumbnailImg}}" class="rounded" />
-      {{item.data.title}}
+  <div class="flex flex-col justify-center items-center text-lg md:text-2xl gap-2 mb-10 mx-5">
+    <img
+      src="./img/Chapter_3.jpg"
+      width="600"
+      height="400"
+      class="rounded-2xl"
+    />
     </div>
-    {% else %} Error: No clans! {% endfor %}
-  </div>
-</div>
 <div class="mx-5 md:mx-20">
 
   <h1 class="font-heading text-red text-4xl uppercase mb-5 mt-20"> What to expect</h1>
@@ -89,15 +78,51 @@ title: Midnight in Melbourne
   </p>
 </div>
 <div>
-  <div class="flex flex-col justify-center items-center text-lg md:text-2xl gap-2 mb-10 mx-5">
-    <img
-      src="./img/Chapter_3.jpg"
-      width="600"
-      height="400"
-      class="rounded-2xl"
-    />
+
 
   </div>
+
+
+<div class="flex flex-col items-center mx-20">
+  <h1 class="font-heading text-red text-4xl uppercase mb-5">The current Clans of Melbourne</h1>
+
+  <div class="flex flex-wrap gap-10 justify-center">
+    {% for item in collections.clans %}
+    <div
+      class="flex flex-col gap-1 items-center cursor-pointer"
+      data-modal-target="modal-clan-{{item.page.fileSlug}}"
+      data-modal-toggle="modal-clan-{{item.page.fileSlug}}"
+    >
+      <img src="{{item.data.thumbnailImg}}" class="rounded" />
+      {{item.data.title}}
+    </div>
+    {% else %} Error: No clans! {% endfor %}
+        <p>
+    <span class="font-bold">These clans were able to keep their territories, and will make up the clans of our next event. </span>
+    </p>
+  </div>
+</div>
+<div class="flex flex-col items-center mx-20">
+  <h1 class="font-heading text-red text-4xl uppercase mb-5">Formerly Present in Melbourne</h1>
+
+  <div class="flex flex-wrap gap-10 justify-center">
+    {% for item in collections.clans %}
+    <div
+      class="flex flex-col gap-1 items-center cursor-pointer"
+      data-modal-target="modal-clan-{{item.page.fileSlug}}"
+      data-modal-toggle="modal-clan-{{item.page.fileSlug}}"
+    >
+      <img src="{{item.data.thumbnailImg}}" class="rounded" />
+      {{item.data.title}}
+    </div>
+    {% else %} Error: No clans! {% endfor %}
+    <p>
+    <span class="font-bold">These clans were once present within Melbourne, but no longer - as such, they are unavailable for play.
+     </span>
+    </p>
+  </div>
+</div>
+
 <div class="flex flex-col items-center mx-20">
   <h1 class="font-heading text-red text-4xl uppercase mb-5">Follow Us</h1>
   <div class="flex flex-wrap justify-center gap-y-4">
