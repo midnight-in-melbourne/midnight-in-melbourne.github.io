@@ -29,4 +29,35 @@ date: 2023-02-12
     Tremere, they drove the Warlocks out before turning their attention to
     Flinders and diablerised him. The resulting chaos and confusion were the
     ideal conditions for the rise of the Malkavian known as the Mad Prince Moon.
+
+   <h2 class="font-heading text-red text-3xl uppercase text-center mb-5"> Mad Prince Moon and the Curfew War</h2>
+
+Details of the Mad Prince and their rule are vague, conflicting, and disturbing.
+Moon’s demented mastery of their Disciplines allowed them to warp the minds
+and memories of the city’s Kindred and subjected them to a reign of terror. What is
+known for sure is limited.  </p>
+
+  <p>
+Moon was certainly a Malkavian, if they were Kindred at all, and though they called
+themself a Prince they were not affiliated with the Camarilla, nor for that matter
+with the Anarch Movement; their methods and motives were alien to either sect.
+They allowed the Brujah, Ventrue, Toreador, Nosferatu, and Banu Haqim of the
+city to remain but subjected them to horrors and humiliations that are generally
+remembered only in nightmare. Most fearsome of all was their haven of Luna Park
+which still remains shrouded in mystery.  </p>
+
+  <p>
+When the city underwent an extended lockdown and curfew during the covid-19
+pandemic, an opportunity was found to fight back. The Toreador and Nosferatu, who
+had both managed to maintain a precarious servile position, engineered a chance
+for the Brujah to assault the Mad Prince’s haven. The bloodshed was only possible
+with the assistance of the Ventrue, whose ties to media, government, and the police
+ensured that the attack was successful and silent.  </p>
+
+  <p>
+Sanity returned to Melbourne, but most of the memories of that time are still lost
+or broken. The Toreador reclaimed their traditional hold over Melbourne’s cultural
+landscape and the Nosferatu were diminished and damaged, but not destroyed.
+The Anarchs stepped into the turf they fought so desperately to seize, while the
+Camarilla moved in to reclaim the city they once called their domain.
 </p>
