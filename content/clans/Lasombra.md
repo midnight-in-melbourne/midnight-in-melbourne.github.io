@@ -5,4 +5,4 @@ heroImg: https://placehold.co/600x400
 order: 2
 ---
 
-The sorcerous Clan Tremere are a highly disciplined lodge of warlocks. Costumes of an esoteric, legal, mysterious, or occult nature may be cast here.
+The feral Clan Gangrel are wild and animalistic. Costumes that are rural, dirty, bestial, or savage will be cast here.
