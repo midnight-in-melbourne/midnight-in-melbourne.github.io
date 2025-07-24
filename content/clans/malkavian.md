@@ -3,6 +3,7 @@ title: Malkavian
 thumbnailImg: ./clans/img/Malkavian_Symbol.jpg
 heroImg: https://placehold.co/600x400
 order: 2
+banished: true
 ---
 
 The enigmatic Clan Malkavian are an insane collection of seers, prophets, and psychopaths. Costumes of an eccentric, medical, or unclassifiable nature will be placed here.

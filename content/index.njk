@@ -88,6 +88,7 @@ title: Midnight in Melbourne
 
   <div class="flex flex-wrap gap-10 justify-center">
     {% for item in collections.clans %}
+    {% if not item.data.banished %}
     <div
       class="flex flex-col gap-1 items-center cursor-pointer"
       data-modal-target="modal-clan-{{item.page.fileSlug}}"
@@ -96,6 +97,7 @@ title: Midnight in Melbourne
       <img src="{{item.data.thumbnailImg}}" class="rounded" />
       {{item.data.title}}
     </div>
+    {% endif %}
     {% else %} Error: No clans! {% endfor %}
         <p>
     <span class="font-bold">These clans were able to keep their territories, and will make up the clans of our next event. </span>
@@ -107,6 +109,7 @@ title: Midnight in Melbourne
 
   <div class="flex flex-wrap gap-10 justify-center">
     {% for item in collections.clans %}
+    {% if item.data.banished %}
     <div
       class="flex flex-col gap-1 items-center cursor-pointer"
       data-modal-target="modal-clan-{{item.page.fileSlug}}"
@@ -115,6 +118,7 @@ title: Midnight in Melbourne
       <img src="{{item.data.thumbnailImg}}" class="rounded" />
       {{item.data.title}}
     </div>
+    {% endif %}
     {% else %} Error: No clans! {% endfor %}
     <p>
     <span class="font-bold">These clans were once present within Melbourne, but no longer - as such, they are unavailable for play.
