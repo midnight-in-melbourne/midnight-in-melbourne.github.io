@@ -1,6 +1,6 @@
 ---
 title: Brujah
-thumbnailImg: ./clans/img/Brujah_symbol.jpg
+thumbnailImg: ./clans/img/Brujah_Symbol.jpg
 heroImg: ./clans/img/banu_hakim.webp
 banished: true
 ---
