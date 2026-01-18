@@ -6,4 +6,4 @@ order: 2
 banished: True
 ---
 
-The feral Clan Gangrel are wild and animalistic. Costumes that are rural, dirty, bestial, or savage will be cast here.
+The sinister Clan Lasombra are an ambitious and ruthless bloodline as deadly and dangerous as darkness itself. Costumes of a clerical, disquieting, sleek, or particularly dark hue will be cast here.

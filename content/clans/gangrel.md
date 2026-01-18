@@ -6,4 +6,4 @@ order: 1
 banished: true
 ---
 
-The deadly and serious Banu Haqim are warrior-scholars bound by strict codes of honour. Costumes that are militant, stealthy, sleek, or otherwise "assassin-chic" will be cast here.
+The rebellious Clan Brujah are gritty and street-savvy. Costumes taking cues from biker, punk, kink, gang, and rebel scenes will be cast here.
