@@ -1,7 +1,7 @@
 ---
 title: Nosferatu
 thumbnailImg: /clans/img/Nosferatu_Symbol.jpg
-heroImg: https://placehold.co/600x400
+heroImg: 
 order: 4
 banished: false
 ---

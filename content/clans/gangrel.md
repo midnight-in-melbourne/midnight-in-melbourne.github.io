@@ -1,7 +1,7 @@
 ---
 title: Gangrel
 thumbnailImg: clans/img/Gangrel Symbol.jpg
-heroImg: ./clans/img/banu_hakim.webp
+heroImg: 
 order: 1
 banished: true
 ---

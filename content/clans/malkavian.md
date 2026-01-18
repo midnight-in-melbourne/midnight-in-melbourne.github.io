@@ -1,7 +1,7 @@
 ---
 title: Malkavian
 thumbnailImg: ./clans/img/Malkavian_Symbol.jpg
-heroImg: https://placehold.co/600x400
+heroImg: 
 order: 2
 banished: false
 ---

@@ -1,7 +1,6 @@
 ---
 title: Banu Hakim
 thumbnailImg: ./clans/img/Banu_Haqim_Symbol.jpg
-heroImg: ./clans/img/banu_hakim.webp
 order: 1
 banished: true
 ---

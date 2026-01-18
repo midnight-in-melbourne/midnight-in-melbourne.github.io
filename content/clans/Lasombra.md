@@ -1,7 +1,7 @@
 ---
 title: Lasombra
 thumbnailImg: clans/img/Lasombra Symbol.jpg
-heroImg: https://placehold.co/600x400
+heroImg: 
 order: 2
 banished: True
 ---

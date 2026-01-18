@@ -1,7 +1,7 @@
 ---
 title: Toreador
 thumbnailImg: ./clans/img/Toreador_Symbol.jpg
-heroImg: ./clans/img/banu_hakim.webp
+heroImg: 
 order: 6
 banished: true
 ---
