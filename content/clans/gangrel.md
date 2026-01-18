@@ -1,6 +1,6 @@
 ---
 title: Gangrel
-thumbnailImg: https://placehold.co/140x140
+thumbnailImg: clans/img/Gangrel Symbol.jpg
 heroImg: ./clans/img/banu_hakim.webp
 order: 1
 banished: true

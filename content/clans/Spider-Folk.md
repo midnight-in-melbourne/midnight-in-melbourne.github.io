@@ -1,6 +1,6 @@
 ---
 title: Spider Folk
-thumbnailImg: https://placehold.co/140x140
+thumbnailImg: clans/img/Spider folk Symbol.jpg
 order: 6
 banished: false
 ---
